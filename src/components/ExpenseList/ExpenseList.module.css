@@ -1,0 +1,23 @@
+.expenseListContainer {
+  text-align: left;
+  width: 100%;
+}
+
+.expenseListContainer h3 {
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #dedede;
+  margin-bottom: 1rem;
+}
+
+.transactionList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5rem;
+  height: 100%;
+}
+
+.transactionList li {
+  list-style: none;
+}
